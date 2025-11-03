@@ -1,0 +1,157 @@
+/* Фоновое фото */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Чтобы гарантировать, что есть прокрутка */
+    width: 100%;
+    min-width: 1024px;
+    max-width: 1920px;
+}
+
+.background {
+    background-image: url(../images/background.jpg); /* Замените на путь к вашему изображению */
+    background-size: cover; /* Масштабируем изображение, чтобы покрыть весь фон */
+    background-position: center; /* Центрируем изображение */
+    background-attachment: fixed; /* Фиксируем фон */
+    position: fixed; /* Фиксируем элемент на странице */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Отправляем фон позади контента */
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0); /* Полупрозрачный фон для контента */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Навигационная панель */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100; 
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px; 
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-icon {
+    width: 200px; 
+    height: 60px;
+    vertical-align: middle; 
+    margin-right: 10px;
+}
+
+.navbar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+.navbar-menu li {
+    margin-left: 70px; 
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease; 
+    font-size: 23px;
+}
+
+.navbar-menu li a:hover {
+    color: #bbb;
+}
+
+.content {
+    padding-top: 60px; 
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Заголовок */
+
+.block_title{
+  font-size: 50px;
+
+}
+
+.block_title{
+  margin:90px 40px;
+   width: 550px;
+  height: 200px;
+}
+
+.home-h1{
+    text-align: left;
+    font-size: 90px;
+    color: #ff0000;
+}
+
+.block_li_title{
+  margin: 160px 40px;
+  width: 960px;
+  height: 300px;
+}
+
+.block_li_title li{
+    height: 50px;
+  font-size: 40px;
+  color: #ff0808;
+}
+
+.news-start{
+width: auto;
+padding: 150px;
+background-color: #161a3d;
+border-radius: 1px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.123);
+}
+
+.news-start-h1{
+    font-size: 100px;
+    color: white;
+    vertical-align: top;
+    margin: 10px 250px;
+}
+
+.news-start-h2{
+    font-size: 25px;
+    color: white;
+    vertical-align: top;
+}
+
+.images{
+    width: 250px;
+    padding: 125px;
+        margin: -50px -80px;
+}
+
+.images-2{
+    width: 300px;
+    padding: 150px;
+    margin: -120px -50px;
+}
