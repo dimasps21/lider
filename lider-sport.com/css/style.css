@@ -141,13 +141,12 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.123);
 .news-start-h2{
     font-size: 25px;
     color: white;
-    vertical-align: top;
 }
 
 .images{
     width: 250px;
     padding: 125px;
-        margin: -50px -80px;
+    margin: -50px -80px;
 }
 
 .images-2{
