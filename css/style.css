@@ -251,13 +251,13 @@ header {
    /* делаем элементы списка блочными, чтобы они располагались друг под другом */
    #menu li {
       display: block;
-      border_botton_ 1px solid #EBEBE3
+      border-bottom: 1px solid #EBEBE3;
       text-align: center;
       margin-right: 0;
    }
    .about-us {
   width: auto;
-  height: 1900px;
+  height: 800px;
   padding: 15px;
   background-color: aqua;
     }
