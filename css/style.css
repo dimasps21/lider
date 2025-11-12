@@ -291,7 +291,7 @@ header {
    }
    .about-us {
   width: auto;
-  height: 1900px;
+  height: 900px;
   padding: 15px;
   background-color: aqua;
 }
@@ -322,5 +322,6 @@ header {
   height: 130px;
   margin-bottom: 5px;
 }
+
 
 }
