@@ -9,30 +9,43 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 <body>
-    <div class="hero-section"> 
-        <header>
-            <nav class="container">
-            <a class="logo" href="#home">
-                <span>L</span>
-                <span>i</span>
-                <span>d</span>
-                <span>e</span>
-                <span>r</span>
-            </a>
-            <div class="nav-toggle"><span></span></div>
-            <ul id="menu">
-                <li><a href="#about-us">О нас</a></li>
-                <li><a href="#contacts">Контакты</a></li>
-                <li><a href="">Об авторе</a></li>
-            </ul>
-            </nav>
-        </header>
-        <script>
-        $('.nav-toggle').on('click', function(){
-        $('#menu').toggleClass('active');
-        });
-</script>
+      <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">MUO</div>
 
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+
+        <li class="services">
+          <a href="/">Services</a>
+
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="/">Dropdown 1 </a></li>
+            <li><a href="/">Dropdown 2</a></li>
+            <li><a href="/">Dropdown 2</a></li>
+            <li><a href="/">Dropdown 3</a></li>
+            <li><a href="/">Dropdown 4</a></li>
+          </ul>
+
+        </li>
+
+        <li><a href="/">Pricing</a></li>
+        <li><a href="/">Contact</a></li>
+      </div>
+    </ul>
+  </nav>
+  
         <div id="home-up" class="home-up">
             <h1 class="post-title">Клуб авто-мотоспорта «‎Лидер»</h1>
             <h2>
