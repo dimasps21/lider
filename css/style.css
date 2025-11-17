@@ -124,7 +124,7 @@ header {
    left: 8px;
    right: 8px;
    height: 2px;
-   background: rgb(2, 2, 2);
+   background: white;
 }
 .nav-toggle span:before, .nav-toggle span:after {
    content: "";
