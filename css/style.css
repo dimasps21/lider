@@ -17,14 +17,6 @@ li {
   list-style: none;
 }
 
-/* стилевой класс, который управляет шириной контейнера сетки*/
-.container {
-   margin: 0 auto;
-   width: 100%;
-   max-width: 960px;
-   padding: 0 15px;
-}
-
 .hero-section {
 background-image: url('../images/background.jpg');
 height: 100%;
