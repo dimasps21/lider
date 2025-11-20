@@ -187,6 +187,13 @@ input[type=checkbox] {
   height: 130px;
   margin-bottom: 5px;
 }
+.post-title {
+  margin-left: 30px;
+  margin-bottom: 12px;
+  font-size: 70px;
+  color: red;
+  
+}
 
 }
 
