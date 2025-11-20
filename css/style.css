@@ -1,9 +1,4 @@
-/* UTILITIES */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 body {
   font-family: cursive;
@@ -99,10 +94,8 @@ input[type=checkbox] {
   font-size: 24px;
   user-select: none;
 }
-
-/* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
- .menu {
+.menu {
     display:none;
     position: absolute;
     background-color:teal;
@@ -139,6 +132,62 @@ input[type=checkbox] {
   .dropdown li:hover {
     background-color: #4c9e9e;
   }
+   .about-us {
+  width: auto;
+  height: 1900px;
+  padding: 15px;
+  background-color: aqua;
+    }
+    .about-us-p {
+  color: black;
+  font-size: 20px;
+    }
+    
+    .post-image {
+  margin: 10px 30px;
+  width: 150px;
+  height: 130px;
+  margin-bottom: 5px;
+}
+
+}
+
+@media (max-width: 480px) {
+   
+    .about-us {
+  width: auto;
+  height: 1900px;
+  padding: 15px;
+  background-color: aqua;
+}
+
+  .post-title {
+  margin-left: 30px;
+  margin-bottom: 12px;
+  font-size: 50px;
+  color: red;
+  
+   }
+
+    .home-ul {
+  margin-top: 40px;
+  font-size: 30px;
+  margin-left: 30px;
+  color: rgb(222, 67, 10);
+   }
+   
+    .about-us-p {
+  color: black;
+  font-size: 20px;
+}
+
+   .post-image {
+  margin: 10px 30px;
+  width: 150px;
+  height: 130px;
+  margin-bottom: 5px;
+}
+
 }
 
 .hero-section {
@@ -231,103 +280,3 @@ background-attachment: fixed;
   color: white;
 }
 
-@media (max-width: 768px) {
-   /* показываем кнопку для переключения верхней навигации */
-   .nav-toggle {
-      display: block;
-   }
-   header {
-      padding: 10px 0;
-   }
-   /* скрываем верхнее меню, отменяем обтекание, позиционируем его, сместив на высоту шапки сайта */
-   #menu {
-      max-height: 0;
-      background: white;
-      float: none;
-      position: absolute;
-      overflow: hidden;
-      top: 63px;
-      right: 0;
-      left: 0;
-      margin: 0;
-      padding: 0;
-      z-index: 3;
-   }
-   /* делаем элементы списка блочными, чтобы они располагались друг под другом */
-   #menu li {
-      display: block;
-      border-bottom: 1px solid #EBEBE3;
-      text-align: center;
-      margin-right: 0;
-   }
-   .about-us {
-  width: auto;
-  height: 1200px;
-  padding: 10px;
-  background-color: aqua;
-    }
-    .about-us-p {
-  color: black;
-  font-size: 20px;
-    }
-    
-    .post-image {
-  margin: 10px 10px;
-  width: 130px;
-  height: 110px;
-  margin-bottom: 5px;
-}
-
-}
-
-@media (max-width: 480px) {
-   /* отменяем обтекание для логотипа и выравниваем по центру*/
-   .logo {
-      float: none;
-      margin: 0 auto 15px;
-      display: table;
-   }
-   .logo span {
-      margin: 0 2px;
-   }
-   /* позиционируем меню на увеличившуюся высоту шапки */
-   #menu {
-      top: 118px;
-   }
-   
-   .about-us {
-  width: auto;
-  height: 900px;
-  padding: 15px;
-  background-color: aqua;
-}
-
-  .post-title {
-  margin-left: 30px;
-  margin-bottom: 12px;
-  font-size: 50px;
-  color: red;
-  
-   }
-
-    .home-ul {
-  margin-top: 40px;
-  font-size: 30px;
-  margin-left: 30px;
-  color: rgb(222, 67, 10);
-   }
-   
-    .about-us-p {
-  color: black;
-  font-size: 20px;
-}
-
-   .post-image {
-  margin: 20px 30px;
-  width: 130px;
-  height: 110px;
-  margin-bottom: 5px;
-}
-
-
-}
