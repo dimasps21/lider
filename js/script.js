@@ -10,3 +10,13 @@ document.getElementById('about-us').addEventListener('click', function() {
 document.getElementById('contacts').addEventListener('click', function() {
   document.querySelector('#contacts').scrollIntoView({ behavior: 'smooth' });
 });
+
+/* Переключение между добавлением и удалением класса "отзывчивый" в topnav, когда пользователь нажимает на значок */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}

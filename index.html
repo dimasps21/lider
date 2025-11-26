@@ -9,30 +9,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 <body>
-    <div class="hero-section"> 
-        <header>
-            <nav class="container">
-            <a class="logo" href="#home">
-                <span>L</span>
-                <span>i</span>
-                <span>d</span>
-                <span>e</span>
-                <span>r</span>
-            </a>
-            <div class="nav-toggle"><span></span></div>
-            <ul id="menu">
-                <li><a href="#about-us">О нас</a></li>
-                <li><a href="#contacts">Контакты</a></li>
-                <li><a href="">Об авторе</a></li>
-            </ul>
-            </nav>
-        </header>
-        <script>
-        $('.nav-toggle').on('click', function(){
-        $('#menu').toggleClass('active');
-        });
-</script>
-
+            <div class="hero-section"> 
+        <div class="topnav" id="myTopnav">
+          <a href="#home" class="active">Главная</a>
+          <a href="#about-us">о нас</a>
+          <a href="#contact">Контакт</a>
+          <div class="dropdown">
+            <button class="dropbtn">Раскрыть
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Ссылка 1</a>
+              <a href="#">Ссылка 2</a>
+              <a href="#">Ссылка 3</a>
+            </div>
+          </div>
+          <a href="#about">О Нас</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
         <div id="home-up" class="home-up">
             <h1 class="post-title">Клуб авто-мотоспорта «‎Лидер»</h1>
             <h2>
