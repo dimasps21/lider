@@ -81,6 +81,11 @@
   display: block;
 }
 
+.imgq{
+   margin: 14px 16px;
+   right: 100%;
+}
+
 /* Если ширина экрана меньше 600 пикселей, скройте все ссылки, кроме первой ("Главная"). Показать ссылку, которая содержит должен открыть и закрыть верхнюю навигационную панель (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
