@@ -16,9 +16,7 @@
 }
 
 /* Добавить активный класс для выделения текущей страницы */
-.active {
-  background-color: #4CAF50;
-  color: white;
+.active img {
   width: 15px;
   height: 45px;
 }
