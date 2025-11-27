@@ -28,7 +28,7 @@
 
 /* Раскрыть контейнер - необходим для размещения выпадающего содержимого */
 .dropdown {
-  float: left;
+  float: right;
   overflow: hidden;
 }
 
