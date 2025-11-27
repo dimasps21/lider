@@ -42,6 +42,7 @@
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  float: right;
 }
 
 /* Стиль раскрывающегося списка (по умолчанию скрыт) */
@@ -56,7 +57,7 @@
 
 /* Стиль ссылки внутри выпадающего списка */
 .dropdown-content a {
-  float: none;
+  float: right;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
