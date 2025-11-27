@@ -57,12 +57,12 @@
 
 /* Стиль ссылки внутри выпадающего списка */
 .dropdown-content a {
-  float: right;
+  float: none;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: right;
+  text-align: left;
 }
 
 /* Добавить темный фон на верхних навигационных ссылках и выпадающая кнопка при наведении курсора */
