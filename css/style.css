@@ -216,6 +216,11 @@ body {
     .about-us-p {
         font-size: 1em;
     }
+    .home-up, .about-us {
+    padding: 20px;
+    text-align: center;
+    height: 700px;
+}
 }
 
 @media (max-width: 480px) {
@@ -240,6 +245,11 @@ body {
         margin-left: 0;
         margin-right: 0;
     }
+    .home-up, .about-us {
+    padding: 20px;
+    text-align: center;
+    height: 1000px;
+}
 }
 
 .about-us {
