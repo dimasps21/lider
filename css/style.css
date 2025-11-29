@@ -119,6 +119,21 @@
     width: 100%;
     text-align: left;
   }
+
+  .post-title {
+  margin-left: 30px;
+  margin-bottom: 12px;
+  font-size: 60px;
+  color: red;
+  
+}
+
+    .home-ul {
+  margin-top: 40px;
+  font-size: 20px;
+  margin-left: 30px;
+  color: rgb(222, 67, 10);
+   }
 }
 .hero-section {
 background-image: url('../images/background.jpg');
