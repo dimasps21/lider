@@ -178,6 +178,7 @@ body {
 .home-up, .about-us {
     padding: 20px;
     text-align: center;
+    height: auto;
 }
 
 .post-title, .about-us-h1 {
