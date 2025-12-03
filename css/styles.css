@@ -90,3 +90,25 @@ body {
 #footer p {
     font-size: 15px;
 }
+
+@media (min-width: 768px){
+    #navbar a{
+        font-size: 10px;
+    }
+
+    #home h1 {
+        font-size: 20px;
+    }
+
+    #home li {
+        font-size: 10px;
+    }
+
+    #About p {
+        font-size: 10px;
+    }
+
+    #footer{
+    height: 200px;
+    }
+}
