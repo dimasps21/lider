@@ -1,0 +1,92 @@
+body {
+    margin: 0 auto;
+    width: auto;
+    background-image: linear-gradient(to right, #d1d3be, #fcff39);
+}
+
+#navbar {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid #fd9d1f;
+    border-radius: 20px 5px;
+    width: 700px;
+    text-align: center;
+    background-color: #fda532;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    font-size: 25px;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+
+#navbar a:hover {
+    border-radius: 20px 5px;
+    background-color: #fd9d1f;
+}
+
+#home{
+    margin: 0 auto;
+    padding: 0;
+    width: 600px;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 50px;
+    color: red;
+}
+
+#home li {
+    padding: 5px;
+    list-style-type: none;
+    font-size: 30px;
+    color: #fd571f;
+}
+
+#About {
+    margin: 0 auto;
+    width: 600px;
+    padding: 10px 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#About h1 {
+    font-size: 50px;
+}
+
+#About p {
+    font-size: 30px;
+}
+
+#About img {
+    padding: 10px;
+    width: 230px;
+    height: 150px;
+}
+
+#footer {
+    padding: 1px 15px;
+    height: 185px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#footer h1 {
+    font-size: 25px;
+}
+
+#footer p {
+    font-size: 15px;
+}
