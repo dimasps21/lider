@@ -14,6 +14,10 @@ body {
     text-align: center;
     background-color: #fda532;
 }
+#navbar img {
+    height: 15px;
+    width: 45px;
+}
 
 #navbar li {
     display: inline;
