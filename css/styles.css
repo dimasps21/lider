@@ -1,48 +1,41 @@
- body {
-  font-family: 'Lato', Verdana;
-  font-size: 100%;
-  background: #fff;
+body {
+    margin: 0 auto;
+    width: auto;
+    background-image: linear-gradient(to right, #d1d3be, #fcff39);
 }
-.wrap
-{
-  margin: 0 auto;
-  width: 70%;  /* отступы относительно окна браузера */
+
+#navbar {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid #fd9d1f;
+    border-radius: 20px 5px;
+    width: auto;
+    text-align: center;
+    background-color: #fda532;
 }
-.header{
-  padding: 1.3em 0em; /* поля вокруг текста */
+#navbar img {
+    height: 45px;
+    width: 75px;
 }
-.logo{
-  float: left; /* обтекание логотипа */
+
+#navbar li {
+    display: inline;
 }
-.logo a {
-  display: block; /* переопределение в блочный  */
+
+#navbar a {
+    font-size: 25px;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
 }
-.nav {
-  float: right;   /* обтекание логотипа */
-  margin-top: 0.82em;
-}
-.nav > ul > li {
-  display:inline-block;  /* переопределение в строчно-блочный  */
-}
-.nav > ul > li.active a{
-  background: #d0a5a5;
-  color: #ffffff;
-}
-.nav > ul > li > a {
-  display: block;
-  font-family: 'Lato', sans-serif;
-  font-size: 1.1em;
-  text-transform: uppercase;
-  padding: 0.5em 1em;
-  color: #444;
-  -webkit-transition: 0.9s; /* плавный переход  */
-  -moz-transition: 0.9s;
-  -o-transition: 0.9s;
-  transition: 0.9s;
-}
-.nav > ul > li > a:hover {
-  color: #fff;
-  background: #d0a5a5;
+
+#navbar a:hover {
+    border-radius: 20px 5px;
+    background-color: #fd9d1f;
 }
 
 #home{
