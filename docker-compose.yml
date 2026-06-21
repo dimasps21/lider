@@ -1,0 +1,42 @@
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: newsdb
+      POSTGRES_USER: newsuser
+      POSTGRES_PASSWORD: newspass
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./backend/db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      PORT: 80
+      DATABASE_URL: postgres://newsuser:newspass@postgres:5432/newsdb
+      REDIS_URL: redis://redis:6379
+      ADMIN_LOGIN: Lider_Admin
+      ADMIN_PASSWORD: 1Qw2xaP4!
+      NEWS_CACHE_KEY: news:latest
+      NEWS_CACHE_TTL_SECONDS: 30
+      JWT_SECRET: change_this_secret
+    depends_on:
+      - postgres
+      - redis
+    ports:
+      - "80:80"
+    volumes:
+      - ./backend/uploads:/app/backend/uploads
+
+volumes:
+  pgdata:
+
